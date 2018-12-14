@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rainbow baby!</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="./rainbow.js"></script>
+
+    <style>
+      html,
+      body {
+        background: #e0f9fd;
+      }
+      .rainbow-div {
+        /* background: darkslategray; */
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 200px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container text-center">
+      <h2>Rainbow JS</h2>
+      <!-- <select class="form-control" id="colorSelect"></select> -->
+    </div>
+    <div class="row">
+      <div class="rainbow-div" id="rb1"></div>
+      <div class="container text-center">
+        <button id="b1" class="btn btn-outline-primary">Start Rainbow</button>
+        <button id="b2" class="btn btn-outline-danger">Stop Rainbow</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rainbow-div" id="rb2"></div>
+      <div class="container text-center">
+        <button id="b3" class="btn btn-outline-primary">Start Rainbow</button>
+        <button id="b4" class="btn btn-outline-danger">Stop Rainbow</button>
+      </div>
+    </div>
+  </body>
+</html>

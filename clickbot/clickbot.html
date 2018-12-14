@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="./app.js"></script>
+
+    <style>
+      html,
+      body {
+        background: gainsboro;
+        color: darkslategrey;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      .clickbot-button {
+        padding: 15px 10px;
+        background: lightgray;
+        box-shadow: 3px 3px 40px -5px rgba(0, 0, 0, 0.51);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .button-holder {
+        margin: 0;
+        padding: 0;
+        height: calc(100% - 20px);
+        width: 100%;
+        background: black;
+      }
+
+      .score-card {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        height: 20px;
+        left: 0;
+        width: 100%;
+        background: grey;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="score-card" id="score"></div>
+    <div class="button-holder" id="holder"></div>
+  </body>
+</html>
